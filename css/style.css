@@ -1,0 +1,38 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*****************************************
+Nav bar
+******************************************/
+.navbar {
+    height: 80px;
+    box-shadow: 0 2px 5px 0 #ccd2db;
+}
+
+#mainNav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #00a4a7;
+}
+
+.navbar h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    color: white;
+    font-size: 24px;
+}
+
+.profilPic {
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0 #7f8fa4;
+    border: solid 3px #ffffff;
+}
+
+.profilPic img {
+    height: 50px;
+}
