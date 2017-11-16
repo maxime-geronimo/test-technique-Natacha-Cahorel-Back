@@ -45,7 +45,7 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -55,7 +55,7 @@
                     <img class="img-fluid" src="view/img/portfolio/cabin.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -65,7 +65,7 @@
                     <img class="img-fluid" src="view/img/portfolio/cake.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -75,7 +75,7 @@
                     <img class="img-fluid" src="view/img/portfolio/circus.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -85,7 +85,7 @@
                     <img class="img-fluid" src="view/img/portfolio/game.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -95,7 +95,7 @@
                     <img class="img-fluid" src="view/img/portfolio/safe.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-item">
                 <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
@@ -113,9 +113,16 @@
 <!-- ADD Section -->
 <section id="add">
     <div class="container">
-        <button>
-            +
-        </button>
+        <div class="addBtn">
+
+                <a href="">
+                    <img src="view/img/add/add.png"
+                         srcset="view/img/add/add@2x.png 2x,
+             view/img/add/add@3x.png 3x"
+                         class="add">
+                </a>
+
+        </div>
     </div>
 </section>
 

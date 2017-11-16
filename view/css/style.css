@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    border: 1px dotted grey;
 }
 
 
@@ -35,4 +36,36 @@ Nav bar
 
 .profilPic img {
     height: 50px;
+}
+
+
+/****************************************
+Images
+*****************************************/
+
+#portfolio {
+    margin-top: 150px;
+}
+
+.portfolio-item {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(127, 143, 164, 0.6);
+    border: solid 3px #ffffff;
+    margin-right: 35px;
+}
+
+#portfolio .portfolio-item {
+    margin: 0 15px;
+}
+
+
+/****************************************
+ADD
+*****************************************/
+
+#add .container {
+    text-align: right;
 }
