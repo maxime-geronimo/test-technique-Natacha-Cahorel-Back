@@ -90,3 +90,7 @@ ADD
 #add .container {
     text-align: right;
 }
+
+.noDisplay {
+    display: none;
+}

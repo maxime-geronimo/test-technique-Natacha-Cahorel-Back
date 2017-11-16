@@ -58,10 +58,85 @@ if (!empty($_GET["setNewPic"])) {
 };
 
 /**********
+pour supprimer une  photo de profil
+ ***************************/
+
+
+if (!empty($_GET["deletePic"])) {
+
+    $idToDelete=$_GET["deletePic"];
+
+    $sql="DELETE FROM photo WHERE id=:oldId ";
+    $requete = $connexion -> prepare($sql);
+    $requete ->bindValue(":oldId", $idToDelete, PDO::PARAM_INT);
+    $requete -> execute();
+
+    $_SESSION["messageFlash"]="Bravo, vous avez supprimé !";
+    header("Location:?page=home");
+    die();
+
+};
+
+/**********
+pour modifier une  photo de profil
+ ***************************/
+if (!empty($_POST) && !empty($_POST["postModify"])) {
+
+    var_dump($_POST);
+
+    if (!('' == $_POST["description"])) {
+        $modDescription= $_POST["description"];
+        $id= $_POST["id"];
+
+        $sql="UPDATE photo SET description=:newDesc WHERE id=:newId ";
+        $requete = $connexion -> prepare($sql);
+        $requete ->bindValue(":newDesc", $modDescription, PDO::PARAM_INT);
+        $requete ->bindValue(":newId", $id, PDO::PARAM_INT);
+        $requete -> execute();
+
+    }
+
+    if (!('' == $_POST["titre"])) {
+        $modTitre= $_POST["description"];
+        $id= $_POST["id"];
+
+        var_dump($id);
+        var_dump($_POST);
+
+        die();
+
+        $sql="UPDATE photo SET titre=:newTitre WHERE id=:newId ";
+        $requete = $connexion -> prepare($sql);
+        $requete ->bindValue(":newTitre", $modTitre, PDO::PARAM_INT);
+        $requete ->bindValue(":newId", $id, PDO::PARAM_INT);
+        $requete -> execute();
+    }
+
+    if (!('oui' == $_POST["defautPic"])) {
+        $sql="UPDATE photo SET defaut=false WHERE defaut=true ";
+        $requete = $connexion -> prepare($sql);
+        $requete -> execute();
+
+        $setNewPicId= $_POST["defautPic"];
+        $value=true;
+
+        $sql="UPDATE photo SET defaut=:newValue WHERE id=:newPic ";
+        $requete = $connexion -> prepare($sql);
+        $requete ->bindValue(":newValue", $value, PDO::PARAM_INT);
+        $requete ->bindValue(":newPic", $setNewPicId, PDO::PARAM_INT);
+        $requete -> execute();
+    }
+
+    header("Location:?page=home");
+    die();
+
+
+}
+/**********
 pour ajouter une nouvelle photo
  ***************************/
 
-if (!empty($_POST)) {
+if (!empty($_POST) && !empty($_POST["postAdd"])) {
     $errors = [];
     var_dump($errors);
     if (empty($_FILES['image']) || $_FILES['image']['error'] != 0) {

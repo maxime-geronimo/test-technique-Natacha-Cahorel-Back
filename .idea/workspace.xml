@@ -32,25 +32,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homeController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/homeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="16.548388">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5887191">
+              <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1510847354127" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
-                <marker date="1510847354127" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
-                <marker date="1510847354127" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
-                <marker date="1510847354127" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
-                <marker date="1510847354127" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="2283:2330" placeholder="UPDATE photo... " />
-                <marker date="1510847354127" expanded="true" signature="3299:3406" placeholder="INSERT INTO photo... " />
+                <marker date="1510851436057" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
+                <marker date="1510851436057" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
+                <marker date="1510851436057" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
+                <marker date="1510851436057" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
+                <marker date="1510851436057" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="1508:1541" placeholder="DELETE FROM " />
+                <marker date="1510851436057" expanded="true" signature="1519:1532" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="2081:2134" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="2547:2595" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="2873:2920" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="3083:3133" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="4377:4424" placeholder="UPDATE photo... " />
+                <marker date="1510851436057" expanded="true" signature="5393:5500" placeholder="INSERT INTO photo... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.903225">
+              <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,20 +74,8 @@
       <file leaf-file-name="homeView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/homeView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.64516">
-              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-              <folding>
-                <marker date="1510843013398" expanded="true" signature="3825:3966" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30317274">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state vertical-scroll-proportion="-16.838709">
+              <caret line="141" column="77" selection-start-line="141" selection-start-column="77" selection-end-line="141" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -91,9 +95,9 @@
       <list>
         <option value="$PROJECT_DIR$/config/config.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/view/css/style.css" />
         <option value="$PROJECT_DIR$/view/homeView.php" />
         <option value="$PROJECT_DIR$/controller/homeController.php" />
-        <option value="$PROJECT_DIR$/view/css/style.css" />
       </list>
     </option>
   </component>
@@ -316,17 +320,23 @@
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1510847354127" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
-            <marker date="1510847354127" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="2283:2330" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="3299:3406" placeholder="INSERT INTO photo... " />
+            <marker date="1510851436057" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
+            <marker date="1510851436057" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="1508:1541" placeholder="DELETE FROM " />
+            <marker date="1510851436057" expanded="true" signature="1519:1532" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2081:2134" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2547:2595" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2873:2920" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="3083:3133" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="4377:4424" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="5393:5500" placeholder="INSERT INTO photo... " />
           </folding>
         </state>
       </provider>
@@ -343,9 +353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-          <folding>
-            <marker date="1510843013398" expanded="true" signature="3825:3966" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,42 +497,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.903225">
+          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/homeView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.64516">
-          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding>
-            <marker date="1510843013398" expanded="true" signature="3825:3966" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-16.838709">
+          <caret line="141" column="77" selection-start-line="141" selection-start-column="77" selection-end-line="141" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/homeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.548388">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5887191">
+          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1510847354127" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
-            <marker date="1510847354127" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
-            <marker date="1510847354127" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="2283:2330" placeholder="UPDATE photo... " />
-            <marker date="1510847354127" expanded="true" signature="3299:3406" placeholder="INSERT INTO photo... " />
+            <marker date="1510851436057" expanded="true" signature="180:216" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="403:436" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="403:446" placeholder="SELECT * FRO... photo" />
+            <marker date="1510851436057" expanded="true" signature="768:797" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="768:815" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="768:816" placeholder="INSERT INTO article... " />
+            <marker date="1510851436057" expanded="true" signature="957:981" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="957:1007" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="957:1010" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="1508:1541" placeholder="DELETE FROM " />
+            <marker date="1510851436057" expanded="true" signature="1519:1532" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2081:2134" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2547:2595" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="2873:2920" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="3083:3133" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="4377:4424" placeholder="UPDATE photo... " />
+            <marker date="1510851436057" expanded="true" signature="5393:5500" placeholder="INSERT INTO photo... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30317274">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
