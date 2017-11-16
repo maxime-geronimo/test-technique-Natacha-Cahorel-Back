@@ -29,14 +29,12 @@ Nav bar
     font-size: 24px;
 }
 
-.profilPic {
+.profilPic img {
     border-radius: 50%;
     box-shadow: 0 10px 20px 0 #7f8fa4;
     border: solid 3px #ffffff;
-}
-
-.profilPic img {
     height: 50px;
+    object-fit: cover;
 }
 
 
@@ -48,9 +46,10 @@ Images
     margin-top: 150px;
 }
 
-.portfolio-item {
-
+#portfolio .portfolio-item {
+    margin: 0 15px;
 }
+
 .portfolio-item img{
     width: 150px;
     height: 150px;
@@ -58,14 +57,29 @@ Images
     border-radius: 20px;
     box-shadow: 0 0 5px 0 rgba(127, 143, 164, 0.6);
     border: solid 3px #ffffff;
-    margin-right: 35px;
-    margin-bottom: 15px;
 }
 
-#portfolio .portfolio-item {
-    margin: 0 15px;
+
+figure {
+    position: relative;
 }
 
+figcaption {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline white;
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+figcaption a {
+    color : white;
+}
 
 /****************************************
 ADD
