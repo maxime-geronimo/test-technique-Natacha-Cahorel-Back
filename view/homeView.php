@@ -45,66 +45,32 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
+
+
+            <?php
+            $i=1;
+            foreach ($articles as $key => $value): ?>
+
+                <div class="portfolio-item">
+                    <a class="portfolio-link" href="#portfolioModal<?=$i ?>" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
                         </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/cabin.png" alt="">
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/cake.png" alt="">
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/circus.png" alt="">
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/game.png" alt="">
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/safe.png" alt="">
-                </a>
-            </div>
-            <div class="portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="view/img/portfolio/submarine.png" alt="">
-                </a>
-            </div>
+                        <img class="img-fluid" src="view/img/<?=($value["nom"]);?>/<?=($value["nom"]);?>.jpg" alt="">
+                    </a>
+                </div>
+
+
+
+            <?php
+            $i++;
+            endforeach; ?>
+
+
+
+
         </div>
     </div>
 </section>
@@ -138,6 +104,8 @@
 </div>
 
 <!-- Portfolio Modals -->
+
+
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -150,7 +118,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 1</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/cabin.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -182,6 +150,12 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -194,7 +168,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 2</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -238,7 +212,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 3</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/circus.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -282,7 +256,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 4</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/game.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -326,7 +300,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 5</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/safe.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
@@ -370,7 +344,7 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modal 6</h2>
                             <hr class="star-primary">
                             <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
