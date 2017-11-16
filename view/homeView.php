@@ -154,6 +154,8 @@ foreach ($articles as $key => $value): ?>
     $i++;
 endforeach; ?>
 
+<!-- Add Picture Modal -->
+
 <div class="portfolio-modal modal fade" id="addModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -166,10 +168,52 @@ endforeach; ?>
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Ajouter photo</h2>
+                            <h2>Ajouter une nouvelle photo</h2>
+
+                            <form action="" method="POST" enctype="multipart/form-data">
+                                <div>
+                                    titre
+                                    <br/>
+                                    <input type="text" name="titre" class="form-control">
+                                </div>
+
+                                <div>description
+                                    <br/>
+                                    <textarea name="description" id="" cols="30" rows="3" class="form-control"></textarea>
+                                </div>
+
+
+                                <div>
+                                    image
+                                    <br/>
+                                    <input type="file" name="image" class="form-control">
+                                </div>
+
+
+                                <div>
+                                    Remplacer la photo par défaut ?
+                                    <br/>
+                                    <select name="defautPic" id="defPic" class="form-control">
+                                        <optgroup>
+                                            <option value="oui" name="defautPic">oui</option>
+                                            <option value="non" name="defautPic">non</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <button class="btn btn-primary" id="addArticleBtn">Enregistrer</button>
+                                </div>
+
+
+                            </form>
+
+
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
                                 Close</button>
+
+
                         </div>
                     </div>
                 </div>
